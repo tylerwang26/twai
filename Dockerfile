@@ -20,6 +20,8 @@ RUN npm install
 
 COPY . .
 
+ENV MOLTBOT_CONFIG_PATH=/src/moltbot.json
+
 EXPOSE 8080
 
 CMD ["npm", "start"]

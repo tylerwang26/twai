@@ -4,7 +4,7 @@
   "description": "",  
   "main": "send_line_image.js",  
   "scripts": {
-    "start": "moltbot start",
+    "start": "moltbot gateway run",
     "build": "echo 'No build step'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },  

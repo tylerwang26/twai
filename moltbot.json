@@ -1,0 +1,11 @@
+{
+  "gateway": {
+    "port": 8080
+  },
+  "channels": {
+    "line": {
+      "enabled": true,
+      "dmPolicy": "open"
+    }
+  }
+}

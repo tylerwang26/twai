@@ -11,12 +11,13 @@
   "author": "",  
   "license": "ISC",  
   "type": "module",  
-  "dependencies": {  
-    "@aws-sdk/client-s3": "^3.980.0",  
-    "@line/bot-sdk": "^7.0.0",  
-    "chartjs-node-canvas": "^5.0.0",  
-    "clawdhub": "^0.3.0",  
-    "echarts": "^6.0.0",  
-    "undici": "^7.21.0"  
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.980.0",
+    "@line/bot-sdk": "^7.0.0",
+    "chartjs-node-canvas": "^5.0.0",
+    "clawdhub": "^0.3.0",
+    "echarts": "^6.0.0",
+    "moltbot": "2026.1.27-beta.1",
+    "undici": "^7.21.0"
   }  
 }  

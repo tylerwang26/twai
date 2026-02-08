@@ -1,0 +1,11 @@
+node_modules
+venv
+.git
+.env
+*.dmg
+*.png
+*.jpg
+.specstory
+.DS_Store
+Claude.dmg
+get-pip.py

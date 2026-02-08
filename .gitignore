@@ -26,3 +26,17 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+venv/
+get-pip.py
+__pycache__/
+
+# Large/generated files
+*.dmg
+*.png
+*.jpg
+
+# Misc
+.specstory/
+.cursorindexingignore

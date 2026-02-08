@@ -5,6 +5,7 @@
   "main": "send_line_image.js",  
   "scripts": {
     "start": "moltbot start",
+    "build": "echo 'No build step'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },  
   "keywords": [],  

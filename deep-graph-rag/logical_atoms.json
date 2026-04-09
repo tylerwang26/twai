@@ -1,0 +1,19 @@
+{
+  "trading": [
+    { "id": "A_PRICE_ABOVE_MA", "text": "股價站上均線", "type": "observation" },
+    { "id": "A_MA_UPWARD", "text": "均線趨勢向上", "type": "observation" },
+    { "id": "A_BULL_MARKET", "text": "大盤處於多頭格局", "type": "observation" },
+    { "id": "A_ENTRY_SIGNAL", "text": "觸發買入訊號", "type": "decision" },
+    { "id": "A_RISK_CONTROL", "text": "啟動止損/位階過濾", "type": "protection" }
+  ],
+  "medtech": [
+    { "id": "A_CLASS_III", "text": "產品屬於 Class III 高風險醫材", "type": "fact" },
+    { "id": "A_HIGH_SWITCH_COST", "text": "客戶更換供應商成本極高", "type": "logic" },
+    { "id": "A_REGULATORY_BARRIER", "text": "法規認證構成競爭護城河", "type": "logic" },
+    { "id": "A_SUPPLY_CHAIN_RISK", "text": "單一來源供應風險", "type": "fact" }
+  ],
+  "emba": [
+    { "id": "A_CAUSAL_LINK", "text": "建立變數間的因果鏈結", "type": "method" },
+    { "id": "A_SENSITIVITY", "text": "執行替代方案敏感性分析", "type": "method" }
+  ]
+}

@@ -1,0 +1,8 @@
+node_modules/
+rag/lancedb/
+*.log
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/

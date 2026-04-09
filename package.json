@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "twai",
+  "version": "0.1.0",
+  "description": "OpenClaw AI engine: GraphRAG + RAG + hybrid memory search",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "rag:build": "python3 scripts/rag_build_lancedb.py",
+    "graph:query": "node deep-graph-rag/scripts/query_graph.mjs"
+  },
+  "dependencies": {
+    "openai": "^6.25.0"
+  }
+}
